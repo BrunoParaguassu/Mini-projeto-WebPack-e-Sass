@@ -1,0 +1,37 @@
+{
+  "name": "prova-de-conceito-william-site",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.5",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "@swc/html": "^0.0.18",
+    "babel-loader": "^9.1.0",
+    "bootstrap-icons": "^1.10.2",
+    "css-loader": "^6.7.2",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-minimizer-webpack-plugin": "^4.3.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

@@ -1,0 +1,65 @@
+/*HEADER*/
+#header {
+    text-align: center;
+    padding: 20px;
+    border-bottom:  1px solid #ccc;    
+}
+
+#header p {
+    margin-bottom: 0;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 40px;
+    margin-right: 15px;
+}
+
+/*NAVBAR*/
+#navbar {
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#navbar a {
+    width: 80px;
+    color: #444;
+    padding: 20px;
+}
+
+#navbar a:hover {
+    color: #c1b696;
+}
+
+/*FOOTER*/
+
+footer {
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i {
+    font-size: 20px;
+}
+
+#social-icons-container{
+    padding: 25px;
+}
+
+#social-icons-container div {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+
+a:hover i {
+    color: #c1b696;
+}
