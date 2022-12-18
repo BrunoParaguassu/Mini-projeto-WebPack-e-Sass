@@ -4,8 +4,9 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "server": "webpack-dev-server"
+    "build": "webpack --mode production",
+    "server": "webpack-dev-server",
+    "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
   "author": "",
