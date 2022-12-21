@@ -1,0 +1,26 @@
+name: develop
+
+on:
+  push:
+    branches: [ "develop" ]
+  pull_request:
+    branches: [ "develop" ]
+
+jobs:
+  build:
+  
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    
+  deploy-dev:
+      name: deploy dev
+      runs-on: ubuntu-latest
+      
+      environment:
+        name: dev 
+      
+      
+      needs: build
