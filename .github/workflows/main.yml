@@ -14,10 +14,5 @@ jobs:
       steps:
           - uses: actions/checkout@v2
           - uses: actions/setup-node@v2
-          - env:
-              NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-              NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          - run: 
-              npm install
-              npm run build
-              npx netlify deploy --dir=dist --prod
+          - run: npm install
+          - run: npm run build
