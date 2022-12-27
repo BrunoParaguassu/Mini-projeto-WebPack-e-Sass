@@ -1,4 +1,4 @@
-name: main
+name: main - Vai aplicar a pipeline CI/CD e enviar para um servidor de produção
 
 on:
   push:
@@ -7,12 +7,20 @@ on:
   pull_request:
     branches:
       - main
-
 jobs:
+
     build:
+
       runs-on: ubuntu-latest
+
       steps:
-          - uses: actions/checkout@v2
+
+          - uses: actions/checkout@v3
+
           - uses: actions/setup-node@v2
-          - run: npm install
-          - run: npm run build
+            with:
+              node-version: '16.18.0'
+
+          - run: |
+              npm install
+              npm run build

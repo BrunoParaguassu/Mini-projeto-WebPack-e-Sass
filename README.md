@@ -1,8 +1,5 @@
 # Mini-projeto-WebPack-e-Sass
 
-William Prof DH: - Minificar o css e javascript
-- Configurar o processo de nomear os arquivos main.js e style.css dinamicamente
-William Prof DH: - Minificar o código html
 William Prof DH: Bootstrap DevOps
 
 - CI - Continuous Integration
